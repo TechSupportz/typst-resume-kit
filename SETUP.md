@@ -1,12 +1,12 @@
 # First-time setup
 
-You are turning this template into one person's résumé. The repo holds
+You are turning this template into one person's resume. The repo holds
 placeholder content (`Your Name`, `example-*` components). Work through the
 steps in order; each ends on its **done when**.
 
 ## 1. Gather
 
-Ask the owner for their existing résumé (PDF, text or a link) and anything it
+Ask the owner for their existing resume (PDF, text or a link) and anything it
 leaves out: projects, metrics, links, roles they are targeting. Ask whether
 they use British or American spelling.
 
@@ -28,7 +28,7 @@ prints nothing.
 
 ## 3. Learn the voice
 
-Read their existing résumé, then interview them until you can write the
+Read their existing resume, then interview them until you can write the
 **Voice** section of `AGENTS.md` in their terms:
 
 - **Positioning** — what a reader should take away about them, and what each

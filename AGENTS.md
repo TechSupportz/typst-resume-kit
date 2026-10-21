@@ -1,4 +1,4 @@
-# Résumé repo — guidance for agents
+# Resume repo — guidance for agents
 
 **First-time setup:** while `resume/base.typ` still says `Your Name`, follow
 `SETUP.md` before anything else.

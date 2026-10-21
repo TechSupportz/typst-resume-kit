@@ -1,14 +1,14 @@
-# Résumé (Typst)
+# Resume (Typst)
 
-A one-page résumé template in [Typst](https://typst.app). Content lives in small
-files, each résumé *variant* picks which entries to show, and the build shrinks
+A one-page resume template in [Typst](https://typst.app). Content lives in small
+files, each resume *variant* picks which entries to show, and the build shrinks
 type and spacing just enough to keep everything on one page.
 
 ## Example
 
-My own résumé, built from this template ([PDF](docs/example-resume.pdf)):
+My own resume, built from this template ([PDF](docs/example-resume.pdf)):
 
-[![An example résumé built with this template](docs/example-resume.png)](docs/example-resume.pdf)
+[![An example resume built with this template](docs/example-resume.png)](docs/example-resume.pdf)
 
 ## Quick start
 
@@ -20,9 +20,9 @@ brew install typst      # the only dependency; fonts are bundled
 The repo ships with placeholder content. To make it yours, open it in Claude
 Code, Codex or another coding agent and say:
 
-> Set up this résumé for me.
+> Set up this resume for me.
 
-The agent follows `SETUP.md`: it asks for your details and existing résumé,
+The agent follows `SETUP.md`: it asks for your details and existing resume,
 writes your entries, learns how you want them to sound and records that in
 `AGENTS.md`, so later edits stay in your voice.
 
@@ -46,7 +46,7 @@ typst watch --root . --font-path template/fonts resume/variants/general.typ out/
 
 ```
 resume/                 the content — the only directory you normally edit
-  variants/             one file per résumé: picks projects + activities
+  variants/             one file per resume: picks projects + activities
   base.typ              shared header, Education, Experience and Skills
   components.typ        imports every component, so variants need one import
   contact.typ           the contact line under your name
@@ -56,7 +56,7 @@ resume/                 the content — the only directory you normally edit
     projects/           one file per project
     extras/             activities and other non-project entries
     skills.typ          the skills block
-  cover-letters/        <variant>.typ builds beside that variant's résumé
+  cover-letters/        <variant>.typ builds beside that variant's resume
 out/
   resume-<name>.pdf     each generic variant (listed in GENERIC in build.sh)
   company/<company>/    a job-specific variant, its cover letter, and
@@ -72,7 +72,7 @@ SETUP.md                first-time setup, for the agent
 
 ## Variants
 
-Each file in `resume/variants/` is one résumé. Education, Experience and Skills
+Each file in `resume/variants/` is one resume. Education, Experience and Skills
 come from `resume/base.typ`; a variant picks its projects and activities, in
 order:
 

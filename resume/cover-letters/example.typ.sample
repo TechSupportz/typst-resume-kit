@@ -6,7 +6,7 @@
 #show: resume.with(name: [Your Name], contact: contact)
 
 #set document(title: [Your Name Cover Letter])
-// The résumé template uses LaTeX-tight zero leading; prose needs air.
+// The resume template uses LaTeX-tight zero leading; prose needs air.
 #set text(size: 11pt, hyphenate: false, top-edge: "cap-height", bottom-edge: "baseline")
 #set par(justify: false, leading: 0.75em, spacing: 1.4em)
 #v(2em)
