@@ -1,0 +1,5 @@
+# Vendored fonts: binary, and not the author's code.
+template/fonts/*.otf binary linguist-vendored
+
+# Built output: don't try to diff it as text.
+out/*.pdf binary

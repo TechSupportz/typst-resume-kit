@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# Build output lives in out/ and IS tracked: out/resume-general.pdf is the current
+# resume, downloadable straight from the repo. Stray builds elsewhere are not.
+/resume.pdf
+*.typ.pdf
+
+# Phone number and the builds that include it: `PHONE=1 ./build.sh` only
+/private/
