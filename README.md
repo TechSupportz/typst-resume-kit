@@ -4,6 +4,12 @@ A one-page résumé template in [Typst](https://typst.app). Content lives in sma
 files, each résumé *variant* picks which entries to show, and the build shrinks
 type and spacing just enough to keep everything on one page.
 
+## Example
+
+My own résumé, built from this template ([PDF](docs/example-resume.pdf)):
+
+[![An example résumé built with this template](docs/example-resume.png)](docs/example-resume.pdf)
+
 ## Quick start
 
 ```bash
